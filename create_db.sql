@@ -18,4 +18,4 @@ CREATE TABLE IF NOT EXISTS expenses (
   FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
-INSERT INTO users (name, email, password) VALUES ('Vivek','vivek@example.com','1234') ON DUPLICATE KEY UPDATE email=email;
+INSERT INTO users (name, email, password) VALUES (*****','*****@example.com','****') ON DUPLICATE KEY UPDATE email=email;
